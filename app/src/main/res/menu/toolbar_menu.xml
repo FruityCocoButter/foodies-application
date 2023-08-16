@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/new_account"
+        android:title="New Account"/>
+    <item
+        android:id="@+id/new_login"
+        android:title="New Login"/>
+
+</menu>
