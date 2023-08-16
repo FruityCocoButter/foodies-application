@@ -3,6 +3,7 @@ public class Customer {
 
     String name;
     String Surname;
+    String reward;
 
     Customer(String name, String Surname){
 
@@ -19,6 +20,16 @@ public class Customer {
     String getSurname(){
 
         return Surname;
+    }
+    
+    String getReward(){
+    
+      return reward;
+    }
+    
+    void setReward(String reward){
+      
+      this.reward = reward;
     }
 
     public boolean equals(Customer customer){

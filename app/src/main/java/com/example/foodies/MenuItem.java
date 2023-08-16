@@ -10,7 +10,7 @@ class MenuItem{
         this.itemDescription = itemDescription;
     }
 
-    // Getters and setters
+
 
     public String getItemName() {
         return itemName;
