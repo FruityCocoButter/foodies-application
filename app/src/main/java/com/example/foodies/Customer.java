@@ -1,4 +1,3 @@
-package com.example.foodies;
 
 public class Customer {
 
@@ -17,5 +16,19 @@ public class Customer {
         return name;
     }
 
+    String getSurname(){
+
+        return Surname;
+    }
+
+    public boolean equals(Customer customer){
+
+        return customer.getName().equalsIgnoreCase(this.name) && customer.getSurname().equalsIgnoreCase(this.Surname);
+    }
+
+    public String toString(){
+
+        return name + " " + Surname;
+    }
 
 }
