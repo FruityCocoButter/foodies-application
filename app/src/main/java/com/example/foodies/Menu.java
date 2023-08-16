@@ -1,3 +1,5 @@
+package com.example.foodies;
+
 import java.util.Arrays;
 
 class Menu{
@@ -24,7 +26,7 @@ class Menu{
       for (int i=0;i<items.length;i++){
         for (int j=0; j<items[i].length;j++){
         
-            menuString.append(Arrays.deepToString(items[i][j].toString())+" ");
+            menuString.append(items[i][j].toString()+" ");
         }
       }
       

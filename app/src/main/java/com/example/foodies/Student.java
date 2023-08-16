@@ -1,3 +1,4 @@
+package com.example.foodies;
 public class Student extends Customer{
    
    String student_number;

@@ -1,4 +1,4 @@
-
+package com.example.foodies;
 public class Staff extends Customer {
 
     String staff_number;

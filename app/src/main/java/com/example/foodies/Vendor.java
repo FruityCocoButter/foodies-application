@@ -1,4 +1,5 @@
-class Vendor{
+package com.example.foodies;
+public class Vendor{
   
    private String vendorName;
    private String vendorNumber;

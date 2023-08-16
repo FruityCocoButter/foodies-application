@@ -1,4 +1,6 @@
-class MenuItem{
+package com.example.foodies;
+
+public class MenuItem{
    
    String itemName;
    String itemPrice;
