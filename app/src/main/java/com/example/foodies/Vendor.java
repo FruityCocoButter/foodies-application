@@ -1,5 +1,6 @@
-package com.example.foodies;
-public class Vendor{
+import android.view.Menu;
+
+class Vendor{
   
    private String vendorName;
    private String vendorNumber;
@@ -7,9 +8,11 @@ public class Vendor{
    private String email;
    private String phoneNumber;
    private Menu menu;
+   private Review[] reviews;
 
    public Vendor(String vendorName, String vendorNumber, String location, String email, String phoneNumber) {
-   this.vendorName = vendorName;
+   
+      this.vendorName = vendorName;
       this.vendorNumber = vendorNumber;
       this.location = location;
       this.email = email;
