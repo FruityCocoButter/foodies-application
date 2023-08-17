@@ -21,6 +21,7 @@ class Review{
       this.comment= comment;
   }
   
+  
   String displayReview() {
   
         String reviewText = "Service Rating: " + service_rating +
@@ -30,5 +31,5 @@ class Review{
                             "\nAffordability Rating: " + affordability +
                             "\nComment: " + (comment != null ? comment : "No comment");
         return reviewText;
-    }
+   }
 }

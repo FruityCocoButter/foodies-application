@@ -32,6 +32,11 @@ public class Customer {
       this.reward = reward;
     }
 
+    boolean checkTypeOfCustomer(String person_number){
+
+        return Character.isDigit(person_number.charAt(0));
+    }
+
     public boolean equals(Customer customer){
 
         return customer.getName().equalsIgnoreCase(this.name) && customer.getSurname().equalsIgnoreCase(this.Surname);
