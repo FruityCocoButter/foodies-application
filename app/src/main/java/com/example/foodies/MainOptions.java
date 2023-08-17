@@ -22,6 +22,14 @@ public class MainOptions extends AppCompatActivity{
             }
         });
 
+        Button reviewButton = (Button) findViewById(R.id.button3);
+        reviewButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), ReviewPage.class);
+                view.getContext().startActivity(intent);
+            }
+        });
+
         Button infoButton = (Button) findViewById(R.id.button5);
         infoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
