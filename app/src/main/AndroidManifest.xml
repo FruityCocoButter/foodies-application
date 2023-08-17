@@ -26,6 +26,8 @@
         <activity android:label="@string/app_name" android:name=".VendorInfo"/>
         <activity android:label="@string/app_name" android:name=".VendorMenu"/>
         <activity android:label="@string/app_name" android:name=".AccountDetails"/>
+        <activity android:label="@string/app_name" android:name=".ReviewPage"/>
+        <activity android:label="@string/app_name" android:name=".Reward"/>
     </application>
 
 </manifest>
