@@ -17,7 +17,7 @@ public class MainOptions extends AppCompatActivity{
         Button menuButton = (Button) findViewById(R.id.button2);
         menuButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), VendorInfo.class);
+                Intent intent = new Intent(view.getContext(), VendorMenu.class);
                 view.getContext().startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class MainOptions extends AppCompatActivity{
         Button infoButton = (Button) findViewById(R.id.button5);
         infoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), VendorMenu.class);
+                Intent intent = new Intent(view.getContext(), VendorInfo.class);
                 view.getContext().startActivity(intent);
             }
         });
