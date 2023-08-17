@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.Button;
 import android.view.View;
-
+import android.view.MenuItem;
 
 import androidx.appcompat.widget.Toolbar;
 
@@ -37,7 +37,19 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        switch(item.getItemId()){
+            case R.id.new_account:
+                Intent intent = new Intent(MainActivity.this, AccountDetails.class);
+                startActivityForResult(intent, 0);
+                break;
+
+            case R.id.new_login:
+                intent = new Intent(MainActivity.this, MainOptions.class);
+                startActivityForResult(intent, 0);
+                break;
+        }
         return true;
     }
 }
